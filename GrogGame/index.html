@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="uf-8">
+        <title>Grog Game</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <p id="grogObtained" class="grog-obtained">0 Grog Obtained</p>
+        <div id="navigateButtons">
+            <button onclick="tab('obtainGrogMenu')">Go to obtain Grog</button>
+            <button onclick="tab('shopMenu')">Go to Shop</button>
+        </div>
+        <div id="obtainGrogMenu">
+        <button onclick="obtainGrog()">Obtain Grog</button>   
+        </div>
+        <div id="shopMenu">
+        <button onclick="buyGrogPerClick()" id="perClickUpgrade">Upgrade Grog (Currently LVL 0) Cost: 10 Grog</button>
+        <button onclick="buyGrogPotency()" id="grogPotency">Increase Grog Potency (Currently LVL 0) Cost: 30 Grog</button>
+        </div>
+        <script src="main.js" charset="utf=8" type="text/javascript"></script>
+    </body>
+</html>
